@@ -65,7 +65,7 @@ enforced from the first project.
 
 Fast-forward to 2026: the same hands-on approach now drives 
 an open-source wearable telemetry system for motorsport.
-→ [moto-telemetry](https://github.com/IzayaJL96/moto-telemetry)
+→ [moto-telemetry](https://github.com/IzayaJL96/Telemetry)
 
 ---
 
