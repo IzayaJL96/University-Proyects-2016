@@ -16,9 +16,9 @@ rebuilt from scratch for autonomous operation.
 
 | File | Description |
 |------|-------------|
-| `BB-9.ino` | Sequential movement control — motor + steering |
-| `BB-9_EVASOR.ino` | Obstacle avoidance with 4 ultrasonic sensors + line follower |
-| `BB-9_SUMO.ino` | Sumo competition logic — ring detection + enemy targeting |
+| `scr\BB-9.ino` | Sequential movement control — motor + steering |
+| `scr\BB-9_EVASOR.ino` | Obstacle avoidance with 4 ultrasonic sensors + line follower |
+| `scr\BB-9_SUMO.ino` | Sumo competition logic — ring detection + enemy targeting |
 
 The physical robot was built by recycling a RC car chassis, 
 repurposing its self-locking differential as the drive system.
@@ -60,7 +60,7 @@ This project consisted of a robotic arm capable of detecting colors and reacting
 - System design and assembly
 - Integration of color sensors
 - Control logic development (currently unavailable)
-`media/Brazo Colores.jpg`
+![Color detection robotic arm](media/Brazo%20Colores.jpg)
 
 ---
 
@@ -75,10 +75,10 @@ These clips show the actual build — imperfections included.
 
 | Video | Description |
 |-------|-------------|
-| `media/Video BB-9 Fail.mp4` | First autonomous run — wheel detachment visible |
-| `media/Video BB-9 Funcional.mp4` | Steering working both directions — autonomous mode |
-| `media/Video Seguidor Linea.mp4` | Line follower robot demo |
-| `media/Video Semaforo.mp4` | Traffic light — first GPIO project |
+| `MEDIA/Video BB-9 Fail.mp4` | First autonomous run — wheel detachment visible |
+| `MEDIA/Video BB-9 Funcional.mp4` | Steering working both directions — autonomous mode |
+| `MEDIA/Video Seguidor Linea.mp4` | Line follower robot demo |
+| `MEDIA/Video Semaforo.mp4` | Traffic light — first GPIO project |
 
 > The wheel falling off in the first clip is intentional to keep here.
 > It's what real hardware development looks like.
