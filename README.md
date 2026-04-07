@@ -53,18 +53,23 @@ Traffic light simulation — introductory GPIO and timing exercise.
 ---
 
 ## Technical progression visible in this repo
+
 ---
 
-## Context
+## Build evidence
 
-These projects were developed under a project-based learning 
-methodology where each course required a functional hardware 
-deliverable. Code quality and documentation standards were 
-enforced from the first project.
+Hardware was built from scratch using recycled components.
+These clips show the actual build — imperfections included.
 
-Fast-forward to 2026: the same hands-on approach now drives 
-an open-source wearable telemetry system for motorsport.
-→ [moto-telemetry](https://github.com/IzayaJL96/Moto-Telemetry)
+| Video | Description |
+|-------|-------------|
+| `media/Video BB-9 Fail.mp4` | First autonomous run — wheel detachment visible |
+| `media/Video BB-9 Funcional.mp4` | Steering working both directions — autonomous mode |
+| `media/Video Seguidor Linea.mp4` | Line follower robot demo |
+| `media/Video Semaforo.mp4` | Traffic light — first GPIO project |
+
+> The wheel falling off in the first clip is intentional to keep here.
+> It's what real hardware development looks like.
 
 ---
 
@@ -72,6 +77,6 @@ an open-source wearable telemetry system for motorsport.
 
 - **BB-9 base**: repurposed RC car — self-locking differential 
   retained as drive mechanism
-- **Platform**: Arduino (various boards)
+- **Platform**: Arduino (UNO, Leonardo, etc)
 - **Sensors**: HC-SR04 ultrasonic, QTR reflectance array (Pololu)
-- **Period**: 2016–2017
+- **Period**: 2016–2018
