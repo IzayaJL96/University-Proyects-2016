@@ -1,4 +1,4 @@
-# Early Embedded Projects — University Period (2016–2017)
+# Early Embedded Projects — University Period (2016–2018)
 
 Collection of Arduino-based robotics projects developed during my 
 Systems Engineering degree at Universidad Cooperativa de Colombia.
