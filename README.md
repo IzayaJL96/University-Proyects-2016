@@ -53,7 +53,7 @@ Traffic light simulation — introductory GPIO and timing exercise with ultrason
 | File | Description |
 |------|-------------|
 | `src/Semaforo.ino` | Traffic light simulation |
-| `src/Ultrasonido_Semaforo.ino` | Traffic light with ultrasonic |
+| `src/Ultrasonido_Semaforo.ino` | Light with ultrasonic sensor |
 
 ### Color Detection Robotic Arm
 
@@ -83,7 +83,7 @@ These clips show the actual build — imperfections included.
 | `MEDIA/Video BB-9 Fail.mp4` | First autonomous run — wheel detachment visible |
 | `MEDIA/Video BB-9 Funcional.mp4` | Steering working both directions — autonomous mode |
 | `MEDIA/Video Seguidor Linea.mp4` | Line follower robot demo |
-| `MEDIA/Video Semaforo.mp4` | Sensor proximity light with ultrasonic |
+| `MEDIA/Video Semaforo.mp4` | Light with ultrasonic |
 
 > The wheel falling off in the first clip is intentional to keep here.
 > It's what real hardware development looks like.
