@@ -16,9 +16,9 @@ rebuilt from scratch for autonomous operation.
 
 | File | Description |
 |------|-------------|
-| `BB-9.ino` | Sequential movement control — motor + steering |
-| `BB-9_EVASOR.ino` | Obstacle avoidance with 4 ultrasonic sensors + line follower |
-| `BB-9_SUMO.ino` | Sumo competition logic — ring detection + enemy targeting |
+| `src/BB-9.ino` | Sequential movement control — motor + steering |
+| `src/BB-9_EVASOR.ino` | Obstacle avoidance with 4 ultrasonic sensors + line follower |
+| `src/BB-9_SUMO.ino` | Sumo competition logic — ring detection + enemy targeting |
 
 The physical robot was built by recycling a RC car chassis, 
 repurposing its self-locking differential as the drive system.
@@ -30,8 +30,8 @@ Independent dual-motor architecture (vs. motor+steering in BB-9).
 
 | File | Description |
 |------|-------------|
-| `IZAYA_MOTORES.ino` | Dual independent motor control — directional logic |
-| `IZAYA_SUMO.ino` | Sumo variant with ultrasonic + line follower |
+| `src/IZAYA_MOTORES.ino` | Dual independent motor control — directional logic |
+| `src/IZAYA_SUMO.ino` | Sumo variant with ultrasonic + line follower |
 
 > Note: Remote control version (`IZAYA_MOTORES`) was started 
 > but not completed — documented here as-is for portfolio continuity.
@@ -41,14 +41,19 @@ Projects using the Pololu Zumo robot with its dedicated libraries.
 
 | File | Description |
 |------|-------------|
-| `POLOLU_RobotSumo.ino` | Sumo competition with ultrasonic targeting |
-| `POLOLU_Seguidor_Linea.ino` | PID-based line follower |
+| `src/POLOLU_RobotSumo.ino` | Sumo competition with ultrasonic targeting |
+| `src/POLOLU_Seguidor_Linea.ino` | PID-based line follower |
 
 The line follower implements a basic proportional-derivative 
 controller — first contact with control systems concepts.
 
-### Semaforo.ino
-Traffic light simulation — introductory GPIO and timing exercise.
+### Semaforo
+Traffic light simulation — introductory GPIO and timing exercise with ultrasonic targeting.
+
+| File | Description |
+|------|-------------|
+| `src/Semaforo.ino` | Traffic light simulation |
+| `src/Ultrasonido_Semaforo.ino` | Traffic light with ultrasonic |
 
 ### Color Detection Robotic Arm
 
@@ -78,7 +83,7 @@ These clips show the actual build — imperfections included.
 | `MEDIA/Video BB-9 Fail.mp4` | First autonomous run — wheel detachment visible |
 | `MEDIA/Video BB-9 Funcional.mp4` | Steering working both directions — autonomous mode |
 | `MEDIA/Video Seguidor Linea.mp4` | Line follower robot demo |
-| `MEDIA/Video Semaforo.mp4` | Traffic light — first GPIO project |
+| `MEDIA/Video Semaforo.mp4` | Sensor proximity light with ultrasonic |
 
 > The wheel falling off in the first clip is intentional to keep here.
 > It's what real hardware development looks like.
