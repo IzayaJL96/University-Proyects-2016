@@ -16,9 +16,9 @@ rebuilt from scratch for autonomous operation.
 
 | File | Description |
 |------|-------------|
-| `scr\BB-9.ino` | Sequential movement control — motor + steering |
-| `scr\BB-9_EVASOR.ino` | Obstacle avoidance with 4 ultrasonic sensors + line follower |
-| `scr\BB-9_SUMO.ino` | Sumo competition logic — ring detection + enemy targeting |
+| `BB-9.ino` | Sequential movement control — motor + steering |
+| `BB-9_EVASOR.ino` | Obstacle avoidance with 4 ultrasonic sensors + line follower |
+| `BB-9_SUMO.ino` | Sumo competition logic — ring detection + enemy targeting |
 
 The physical robot was built by recycling a RC car chassis, 
 repurposing its self-locking differential as the drive system.
@@ -60,7 +60,7 @@ This project consisted of a robotic arm capable of detecting colors and reacting
 - System design and assembly
 - Integration of color sensors
 - Control logic development (currently unavailable)
-![Color detection robotic arm](media/Brazo%20Colores.jpg)
+![Color Detection Robotic Arm](media/Brazo_Colores.jpg)
 
 ---
 
