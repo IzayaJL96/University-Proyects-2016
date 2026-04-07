@@ -50,6 +50,18 @@ controller — first contact with control systems concepts.
 ### Semaforo.ino
 Traffic light simulation — introductory GPIO and timing exercise.
 
+### Color Detection Robotic Arm
+
+> ⚠️ The original source code is not available (corrupted file).
+
+This project consisted of a robotic arm capable of detecting colors and reacting accordingly (e.g., object classification or specific movements based on detected color).
+
+**My contribution:**
+- System design and assembly
+- Integration of color sensors
+- Control logic development (currently unavailable)
+`media/Brazo Colores.jpg`
+
 ---
 
 ## Technical progression visible in this repo
@@ -78,5 +90,9 @@ These clips show the actual build — imperfections included.
 - **BB-9 base**: repurposed RC car — self-locking differential 
   retained as drive mechanism
 - **Platform**: Arduino (UNO, Leonardo, etc)
-- **Sensors**: HC-SR04 ultrasonic, QTR reflectance array (Pololu)
+- **Sensors**: HC-SR04 ultrasonic, TCRT5000, QTR reflectance array (Pololu)
 - **Period**: 2016–2018
+
+## License
+GPL v3 — use it, fork it, build on it. 
+If you improve it, keep it open.
