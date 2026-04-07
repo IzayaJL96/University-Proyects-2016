@@ -60,7 +60,7 @@ This project consisted of a robotic arm capable of detecting colors and reacting
 - System design and assembly
 - Integration of color sensors
 - Control logic development (currently unavailable)
-![Color Detection Robotic Arm](media/Brazo_Colores.jpg)
+![Color Detection Robotic Arm](MEDIA/Brazo_Colores.jpg)
 
 ---
 
