@@ -61,16 +61,29 @@ Traffic light simulation — introductory GPIO and timing exercise with ultrason
 
 This project consisted of a robotic arm capable of detecting colors and reacting accordingly (e.g., object classification or specific movements based on detected color).
 
+**System overview:**
+- 5-DOF robotic arm actuated using servo motors
+- Ultrasonic sensor for distance detection and object positioning
+- Color sensor module (RGB-based; exact model not preserved) used for object identification
+
 **My contribution:**
-- System design and assembly
-- Integration of color sensors
-- Control logic development (currently unavailable)
+- Servo motor control tuning for coordinated multi-axis movement
+- Ultrasonic sensor integration and calibration for reliable distance measurement
+- Physical assembly, wiring, and hardware adjustments
+- Iterative testing and calibration of movement precision and detection timing
 ![Color Detection Robotic Arm](MEDIA/Brazo_Colores.jpg)
 
 ---
-
 ## Technical progression visible in this repo
-
+```
+GPIO + timing (Semaforo)
+    → Sensor integration — distance measurement (Ultrasonido)
+        → Actuator control (BB-9 basic)
+            → Multi-sensor fusion (BB-9 Evasor)
+                → Autonomous competition logic (BB-9 Sumo)
+                    → PD control systems (Pololu line follower)
+                        → Hardware-software co-design (Color Detection Arm)
+```
 ---
 
 ## Build evidence
@@ -97,6 +110,16 @@ These clips show the actual build — imperfections included.
 - **Platform**: Arduino (UNO, Leonardo, etc)
 - **Sensors**: HC-SR04 ultrasonic, TCRT5000, QTR reflectance array (Pololu)
 - **Period**: 2016–2018
+
+---
+
+## What came next
+
+Same hands-on approach, higher complexity.  
+→ [moto-telemetry](https://github.com/IzayaJL96/moto-telemetry) 
+— open-source wearable telemetry system for motorsport (2026)
+
+---
 
 ## License
 GPL v3 — use it, fork it, build on it. 
